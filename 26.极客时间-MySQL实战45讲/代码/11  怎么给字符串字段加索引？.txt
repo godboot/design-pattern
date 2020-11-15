@@ -1,0 +1,1 @@
+mysql> select field_list from t where id_card_crc=crc32('input_id_card_string') and id_card='input_id_card_string'
